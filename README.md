@@ -70,8 +70,11 @@ Default Admin Credentials: ID: abcd | Password: 1234
 Sample Output:
 
 ==== Flight Management System ====
+
 U = User | E = Employee | Q = Quit
+
 Enter role: U
+
 --- User Menu ---
 1. Find connecting flights
 2. Display flights by departure
