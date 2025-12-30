@@ -88,11 +88,15 @@ Enter Destination: Chennai
 Searching routes from Bengaluru to Chennai ...
 
 Route: Bengaluru -> Kolkata -> Delhi -> Mumbai -> Goa -> Chennai
+
    Flights: AI606 (Dep:1200 Arr:1430 Delay:0) -> AI607 (Dep:1600 Arr:1900 Delay:30) -> AI101 (Dep:1030 Arr:1215 Delay:15) -> AI203 (Dep:1330 Arr:1510 Delay:10) -> AI603 (Dep:1900 Arr:2050 Delay:10)
+   
    Total delay across route: 65 minutes
    
 Route: Bengaluru -> Goa -> Chennai
+
    Flights: AI602 (Dep:1700 Arr:1830 Delay:5) -> AI603 (Dep:1900 Arr:2050 Delay:10)
+   
    Total delay across route: 15 minutes
 
 
