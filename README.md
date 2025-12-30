@@ -4,11 +4,17 @@ graph to manage connecting routes and delays.Follows a multi-file modular
 design with proper dynamic memory handling and no global variables.
 
 
+
 Technical Implementation
+
 This project moves beyond basic programming by integrating three core computer science pillars:
+
 Graph Theory: Uses an Adjacency List to represent airports as nodes and flights as directed edges. Implements Depth First Search (DFS) to find all available connecting routes between two cities.
+
 Linear Data Structures: Implements a Linked-List based Queue to manage flight records dynamically, ensuring efficient O(1) insertion.
+
 Data Persistence: Features a custom File I/O engine that serializes flight data into a pipe-delimited (|) format, allowing data to persist across sessions
+
 
 
 Key Features
@@ -23,20 +29,31 @@ Automated Cleanup: Logic to remove "expired" flights based on the current system
 Memory Management: Clean implementation with zero global variables and full dynamic memory deallocation (free).
 
 
+
 Project Structure
+
 main.c              → Main program (menus, user/employee modes)
+
 flight.c            → Queue and file operations
+
 flight.h            → Flight structure & function declarations
+
 graph.c             → Graph implementation (connecting routes)
+
 graph.h             → Graph structure & function declarations
+
 flight_all.txt      → Stores all flight records (auto-updated)
+
 admin_login.txt     → Stores employee login credentials
 
 
+
 Prerequisites
+
 GCC Compiler (MinGW for Windows, or native GCC for Linux/Mac).
 
 Compilation
+
 Run the following command in your terminal:
 Bash
 gcc main.c flight.c graph.c -o flight_system
@@ -45,7 +62,9 @@ Run the program using the following command
 ./flight_system
 
 
+
 Default Admin Credentials: ID: abcd | Password: 1234
+
 
 
 Sample Output:
@@ -60,7 +79,9 @@ Enter role: U
 4. Exit User Menu
 Choice: 1
 Enter Source: Bengaluru
+
 Enter Destination: Chennai
+
 Searching routes from Bengaluru to Chennai ...
 
 Route: Bengaluru -> Kolkata -> Delhi -> Mumbai -> Goa -> Chennai
