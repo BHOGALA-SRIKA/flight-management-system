@@ -1,0 +1,13 @@
+AI101|Delhi|Mumbai|1030|1215|15
+AI203|Mumbai|Goa|1330|1510|10
+AI405|Chennai|Kolkata|1100|1330|5
+AI506|Goa|Delhi|1730|1930|20
+AI601|Mumbai|Bengaluru|1500|1630|0
+AI602|Bengaluru|Goa|1700|1830|5
+AI603|Goa|Chennai|1900|2050|10
+AI605|Hyderabad|Delhi|900|1130|20
+AI606|Bengaluru|Kolkata|1200|1430|0
+AI607|Kolkata|Delhi|1600|1900|30
+AI609|Hyderabad|Bengaluru|1000|1115|0
+AI610|Goa|Bengaluru|1300|1430|0
+AI907|Hyderabad|Chennai|1502|1850|0
